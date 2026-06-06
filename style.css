@@ -22,8 +22,8 @@ a {
 .hero {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 70% 25%, rgba(255, 138, 76, 0.12), transparent 30%),
-    linear-gradient(135deg, #1b120f, #120d0b 55%, #070707);
+    radial-gradient(circle at 70% 25%, rgba(59, 130, 246, 0.12), transparent 30%),
+    linear-gradient(135deg, #07111f, #0f172a 55%, #020617);
   color: #f8f1e8;
   padding: 28px 7% 80px;
 }
@@ -36,7 +36,7 @@ a {
 }
 
 .logo {
-  color: #ff8a4c;
+  color: #3b82f6;
   font-size: 28px;
   font-weight: 900;
   letter-spacing: -1px;
@@ -76,7 +76,7 @@ a {
 }
 
 .hero-kicker {
-  color: #ff8a4c;
+  color: #3b82f6;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 13px;
@@ -90,7 +90,7 @@ a {
   content: "";
   width: 28px;
   height: 2px;
-  background: #ff8a4c;
+  background: #3b82f6;
   position: absolute;
   left: 0;
   top: 50%;
@@ -105,7 +105,7 @@ a {
 }
 
 .hero h1 span {
-  color: #ff8a4c;
+  color: #3b82f6;
   font-style: italic;
 }
 
@@ -125,7 +125,7 @@ a {
 
 .skill-pills span {
   color: #e8ded4;
-  border: 1px solid rgba(255, 138, 76, 0.35);
+  border: 1px solid rgba(59, 130, 246, 0.35);
   border-radius: 999px;
   padding: 9px 15px;
   font-size: 12px;
@@ -156,9 +156,9 @@ a {
 }
 
 .primary {
-  background: #ff8a4c;
+  background: #3b82f6;
   color: #1b120f;
-  box-shadow: 0 14px 28px rgba(255, 138, 76, 0.22);
+  box-shadow: 0 14px 28px rgba(59, 130, 246, 0.22);
 }
 
 .secondary {
