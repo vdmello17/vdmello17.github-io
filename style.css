@@ -1,4 +1,3 @@
-
 :root {
   --ink: #f8fafc;
   --paper: #020617;
@@ -1114,6 +1113,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .contact-card-icon svg {
@@ -1160,7 +1160,6 @@ footer a {
     opacity: 0;
     transform: translateY(24px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1168,25 +1167,13 @@ footer a {
 }
 
 @keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 @keyframes scrollPulse {
-  0%,
-  100% {
-    opacity: 0.35;
-  }
-
-  50% {
-    opacity: 1;
-  }
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
 }
 
 .reveal {
@@ -1340,78 +1327,4 @@ footer a {
   .contact-card {
     padding: 1.2rem;
   }
-
-/* ===== FIX OLD HTML CLASS COLORS ===== */
-
-.logo,
-.logo span,
-.nav-logo,
-.nav-logo span {
-  color: #f8fafc !important;
-}
-
-.nav-links a {
-  color: #cbd5e1 !important;
-}
-
-.nav-links a:hover {
-  color: #ffffff !important;
-}
-
-.hero,
-.hero * {
-  color: inherit;
-}
-
-.hero-kicker,
-.hero-eyebrow {
-  color: #60a5fa !important;
-}
-
-.hero h1,
-.hero-title {
-  color: #f8fafc !important;
-}
-
-.hero h1 span,
-.hero-title em {
-  color: #60a5fa !important;
-}
-
-.hero-description,
-.hero-subtitle {
-  color: #cbd5e1 !important;
-}
-
-.skill-pills span,
-.hero-skill-pill {
-  color: #dbeafe !important;
-  background: rgba(15, 23, 42, 0.8) !important;
-  border: 1px solid rgba(96, 165, 250, 0.35) !important;
-}
-
-.hero-buttons .primary,
-.hero-actions .btn-primary,
-.btn.primary {
-  background: #3b82f6 !important;
-  color: #ffffff !important;
-}
-
-.hero-buttons .secondary,
-.hero-actions .btn-outline,
-.btn.secondary {
-  background: transparent !important;
-  color: #ffffff !important;
-  border: 1.5px solid rgba(219, 234, 254, 0.75) !important;
-}
-
-.floating-card p,
-.float-card-label {
-  color: #93c5fd !important;
-}
-
-.floating-card h3,
-.float-card-value {
-  color: #f8fafc !important;
-}
 }
